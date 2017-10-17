@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[DiarMain.sln]
+SCC_Aux_Path = "\\green\VSS\VSS_CRS3"
+SCC_Project_Name = "$/Lukshin/DiarMain/DiarMain", RFSBAAAA
+
+[Condenser.sln]
+SCC_Aux_Path = "\\green\VSS\VSS_CRS3"
+SCC_Project_Name = "$/Lukshin/Condenser/Condenser", QUUBAAAA
