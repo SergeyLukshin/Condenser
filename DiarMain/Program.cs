@@ -375,7 +375,7 @@ namespace Condenser
 
                 //AppDomain.CurrentDomain.SetData("DataDirectory", Environment.CurrentDirectory);
 
-                AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>
+                /*AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>
                 {
                     // В вашем случае в args.Name будет лежать строка
                     // Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342
@@ -386,7 +386,7 @@ namespace Condenser
                     string depAssemblyFileName = new AssemblyName(args.Name).Name + ".dll";
                     string depAssemblyPath = Path.Combine("", depAssemblyFileName);
                     return Assembly.Load(depAssemblyPath);
-                };
+                };*/
 
                 //DevExpress.UserSkins.SkinFHA fha = new DevExpress.UserSkins.SkinFHA();
                 //string str = fha.SkinInfo1[0];

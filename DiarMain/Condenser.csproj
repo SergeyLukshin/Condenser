@@ -293,6 +293,7 @@
     <EmbeddedResource Include="Algorithms\RecommendationRecordForm.resx">
       <DependentUpon>RecommendationRecordForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Test\RecommendationForm.resx">
       <DependentUpon>RecommendationForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -311,7 +312,6 @@
     <EmbeddedResource Include="Messages\NoFindEquipmentMessageForm.resx">
       <DependentUpon>NoFindEquipmentMessageForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Messages\PrintFillabilityMessageForm.resx">
       <DependentUpon>PrintFillabilityMessageForm.cs</DependentUpon>
     </EmbeddedResource>
