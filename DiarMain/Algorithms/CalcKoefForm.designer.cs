@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalcKoefForm));
             this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.cbCondenserType = new DevExpress.XtraEditors.LookUpEdit();
-            this.qCondenserTypesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qCondenserTypesBindingSource = new System.Windows.Forms.BindingSource();
             this.dataSetQuery = new Condenser.DataSetQuery();
             this.panelExpertMode = new DevExpress.XtraEditors.PanelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
@@ -50,7 +49,7 @@
             this.colSumCycle = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colColor = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemTextEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
-            this.toolTip = new DevExpress.Utils.ToolTipController(this.components);
+            this.toolTip = new DevExpress.Utils.ToolTipController();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
@@ -74,8 +73,8 @@
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.bCancel = new DevExpress.XtraEditors.SimpleButton();
             this.bSave = new DevExpress.XtraEditors.SimpleButton();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer();
+            this.timer2 = new System.Windows.Forms.Timer();
             this.panelControl8 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl7 = new DevExpress.XtraEditors.PanelControl();
             this.splitterControl1 = new DevExpress.XtraEditors.SplitterControl();
